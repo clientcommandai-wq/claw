@@ -1,0 +1,12 @@
+# Never commit credentials or tokens
+credentials/
+*.token
+*.secret
+.env
+.env.*
+
+# Memory files (too noisy for git, use BrainTrust instead)
+memory/
+
+# OpenClaw internal
+.openclaw/
